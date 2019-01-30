@@ -18,3 +18,6 @@ This has been designed so you do not need dotnet core installed on your local ma
 ```
 docker build -t repomage .
 ```
+
+### License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flareeth%2FRepoMage.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Flareeth%2FRepoMage?ref=badge_large)
