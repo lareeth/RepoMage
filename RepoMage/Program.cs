@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace repomage
+namespace RepoMage
 {
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            Console.ReadLine();
         }
     }
 }
