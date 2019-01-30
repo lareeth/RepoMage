@@ -3,7 +3,8 @@ This is a helper utility thats designed to help archive old repos that are no lo
 
 | Environment | Status |
 | ------------- |:-------------:|
-| Master        | [![Build Status](https://travis-ci.org/lareeth/RepoMage.svg?branch=master)](https://travis-ci.org/lareeth/RepoMage) |
+| Master        | [![Build Status](https://travis-ci.org/lareeth/RepoMage.svg?branch=master)](https://travis-ci.org/lareeth/RepoMage) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flareeth%2FRepoMage.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flareeth%2FRepoMage?ref=badge_shield)
+|
 | Dev           | [![Build Status](https://travis-ci.org/lareeth/RepoMage.svg?branch=dev)](https://travis-ci.org/lareeth/RepoMage) |
 
 ### Running docker image
@@ -18,3 +19,6 @@ This has been designed so you do not need dotnet core installed on your local ma
 ```
 docker build -t repomage .
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flareeth%2FRepoMage.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Flareeth%2FRepoMage?ref=badge_large)
