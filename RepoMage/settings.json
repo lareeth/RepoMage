@@ -1,2 +1,9 @@
 {
+  "accounts": [
+    {
+      "Name": "Test",
+      "Enabled": true,
+      "MaxAge": 12
+    }
+  ]
 }

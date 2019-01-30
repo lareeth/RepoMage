@@ -1,8 +1,10 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using RepoMage.Models;
 using Serilog;
 
 namespace RepoMage
@@ -27,6 +29,7 @@ namespace RepoMage
             IServiceProvider services = new ServiceCollection()
                 .AddLogging()
                 .AddOptions()
+                .Configure<List<GitAccount>>(config.GetSection("accounts"))
                 .AddSingleton<ILoggerFactory>(loggerFactory)
                 .AddSingleton<CleanUp>()
                 .BuildServiceProvider();
