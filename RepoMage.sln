@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepoMage", "RepoMage\RepoMage.csproj", "{EF2BDB67-3EA4-4AE8-A76F-4BBCD2A1BEBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepoMage.Test", "RepoMage.Test\RepoMage.Test.csproj", "{740ABCBA-7E58-4AC9-BF28-A2859AD54A08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EF2BDB67-3EA4-4AE8-A76F-4BBCD2A1BEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF2BDB67-3EA4-4AE8-A76F-4BBCD2A1BEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF2BDB67-3EA4-4AE8-A76F-4BBCD2A1BEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740ABCBA-7E58-4AC9-BF28-A2859AD54A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740ABCBA-7E58-4AC9-BF28-A2859AD54A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740ABCBA-7E58-4AC9-BF28-A2859AD54A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740ABCBA-7E58-4AC9-BF28-A2859AD54A08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
