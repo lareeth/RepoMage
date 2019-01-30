@@ -1,5 +1,5 @@
 # RepoMage
-This is a helper utility thats designed to help archive old repos that are not longer in use.
+This is a helper utility thats designed to help archive old repos that are no longer in use.
 
 | Environment | Status |
 | ------------- |:-------------:|
