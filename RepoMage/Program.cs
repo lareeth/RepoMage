@@ -28,11 +28,10 @@ namespace RepoMage
                 .AddLogging()
                 .AddOptions()
                 .AddSingleton<ILoggerFactory>(loggerFactory)
+                .AddSingleton<CleanUp>()
                 .BuildServiceProvider();
 
-            Console.WriteLine("Hello World!");
-
-            Console.ReadLine();
+            services.GetRequiredService<CleanUp>();
         }
     }
 }
