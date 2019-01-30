@@ -5,3 +5,9 @@ This is a helper utility thats designed to help archive old repos that are no lo
 | ------------- |:-------------:|
 | Master        | [![Build Status](https://travis-ci.org/lareeth/RepoMage.svg?branch=master)](https://travis-ci.org/lareeth/RepoMage) |
 | Dev           | [![Build Status](https://travis-ci.org/lareeth/RepoMage.svg?branch=dev)](https://travis-ci.org/lareeth/RepoMage) |
+
+### Running docker image
+
+```
+docker run -v $PWD/settings.json:/opt/app/settings.json:ro lareeth/repomage
+```
