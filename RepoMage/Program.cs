@@ -2,7 +2,8 @@
 using System.IO;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
+using Microsoft.Extensions.Logging;
+using Serilog;
 
 namespace RepoMage
 {
@@ -15,8 +16,18 @@ namespace RepoMage
                 .AddJsonFile("settings.json")
                 .Build();
 
+            Serilog.ILogger logger = new LoggerConfiguration()
+               .WriteTo.Console()
+               .MinimumLevel.Debug()
+               .CreateLogger();
+
+            ILoggerFactory loggerFactory = new LoggerFactory()
+                .AddSerilog(logger);
+
             IServiceProvider services = new ServiceCollection()
+                .AddLogging()
                 .AddOptions()
+                .AddSingleton<ILoggerFactory>(loggerFactory)
                 .BuildServiceProvider();
 
             Console.WriteLine("Hello World!");
