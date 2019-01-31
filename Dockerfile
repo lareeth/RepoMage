@@ -7,12 +7,10 @@ ENV DOTNET_CLI_TELEMETRY_OPTOUT 1
 # Set work directory for apps
 WORKDIR /opt/app/
 
-ADD * ./
+ADD . ./
 
-RUN dotnet restore && \
-	dotnet test
-	
-RUN dotnet publish -c Release
+RUN dotnet test && \
+	dotnet publish -c Release
 
 FROM microsoft/dotnet:2.2-runtime-alpine
 
