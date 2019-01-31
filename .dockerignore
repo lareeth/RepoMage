@@ -1,0 +1,6 @@
+.git
+.vs
+Dockerfile
+
+**/[Bb]in/
+**/[Oo]bj/
