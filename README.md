@@ -3,8 +3,8 @@ This is a helper utility thats designed to help archive old repos that are no lo
 
 | Environment | Status |
 | ------------- |:-------------:|
-| Master        | [![Build Status](https://travis-ci.org/lareeth/RepoMage.svg?branch=master)](https://travis-ci.org/lareeth/RepoMage) |
-| Dev           | [![Build Status](https://travis-ci.org/lareeth/RepoMage.svg?branch=dev)](https://travis-ci.org/lareeth/RepoMage) |
+| Master        | [![Build Status](https://travis-ci.com/lareeth/RepoMage.svg?branch=master)](https://travis-ci.com/lareeth/RepoMage) |
+| Dev           | [![Build Status](https://travis-ci.com/lareeth/RepoMage.svg?branch=dev)](https://travis-ci.com/lareeth/RepoMage) |
 
 ### Running docker image
 There is a prebuilt image that is available [https://hub.docker.com/r/lareeth/repomage](https://hub.docker.com/r/lareeth/repomage) and can run with the following command
